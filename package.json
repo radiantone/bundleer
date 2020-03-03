@@ -1,8 +1,8 @@
 {
-  "name": "puppet",
-  "version": "1.0.0",
+  "name": "bundleer",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "bundleer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,10 @@
     "uglify-js": "^3.8.0",
     "uglifycss": "0.0.29",
     "uuid": "^3.4.0"
+  },
+  "bin": {
+    "bundleer": "./bundleer.js",
+    "makebundle": "./makebundle.js"
   },
   "devDependencies": {
     "uglify-js": "^3.8.0"
