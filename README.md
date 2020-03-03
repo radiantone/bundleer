@@ -17,6 +17,7 @@ It can however, be used to bundle a 3rd party app or page for use offline, for e
 
 ```bash
 $ npm install .
+$ npm link
 ```
 
 ## Usage
