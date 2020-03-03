@@ -4,11 +4,12 @@
   "description": "",
   "main": "bundleer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodejs bundleer.js"
   },
   "author": "Radiant One",
   "license": "ISC",
   "dependencies": {
+    "commander": "^4.1.1",
     "puppeteer": "^2.1.1",
     "uglify-js": "^3.8.0",
     "uglifycss": "0.0.29",
