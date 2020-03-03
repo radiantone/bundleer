@@ -42,6 +42,6 @@ $ ls -l sites/<appname>
 
 ## Explanation
 
-When bundleer runs it will create a subdirectory at ./sites/<appname> that contains all the output
-The first step is to run bundleer to collect all the style and javascript files and organize them in proper sequence.
-The second step is to then bundle those into proper bundle.css and bundle.js files.
+When bundleer runs it will create a subdirectory at ./sites/appname that contains all the output.
+The first step is to run bundleer to *gather* all the style and javascript files and organize them in proper sequence.
+The second step is to then *bundle* those into proper bundle.css and bundle.js files.
