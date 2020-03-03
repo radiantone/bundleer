@@ -12,3 +12,16 @@ This can be useful for things like legacy or 3rd party applications that you wan
 This approach certainly is not meant to replace build time bundlers and will probably only have niche uses.
 
 It can however, be used to bundle a 3rd party app or page for use offline, for example.
+
+## Installation
+
+```bash
+$ npm install .
+```
+
+## Usage
+
+```bash
+$ bundleer <appname> <url>
+$ makebundle <appname>
+```
