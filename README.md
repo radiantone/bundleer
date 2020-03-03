@@ -23,13 +23,25 @@ $ npm link
 ## Usage
 
 ```bash
-$ bundleer <appname> <url>
-$ makebundle <appname>
+$ bundleer -h
+Usage: bundleer [options] [command]
+
+Options:
+  -V, --version              output the version number
+  -h, --help                 output usage information
+
+Commands:
+  gather <appname> <appurl>  Gather CSS and JavaScript for a website URL.
+  bundle <appname>           Bundle, minify and obfuscate CSS and JavaScript for a gathered app.
 ```
-
-Alernate usage
-
 ```bash
-$ nodejs bundleer.js <appname> <url>
-$ nodejs makebundle.js <appname>
+$ bundleer gather <appname> <url>
+$ bundleer bundle <appname>
+$ ls -l sites/<appname>
 ```
+
+## Explanation
+
+When bundleer runs it will create a subdirectory at ./sites/<appname> that contains all the output
+The first step is to run bundleer to collect all the style and javascript files and organize them in proper sequence.
+The second step is to then bundle those into proper bundle.css and bundle.js files.
