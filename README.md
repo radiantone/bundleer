@@ -2,7 +2,7 @@
 
 Bundleer is a live website bundling CLI that uses puppeteer to load your live website and detect all the javascript and css files and bundle them in proper sequence into a compact, single, obfuscated file such as bundle.js or bundle.css.
 
-### Background
+## Background
 
 Typical bundle tools like webkit operate at build time and require you to create special config files, directory structures and other specifics for the bundling tool.
 Bundleer is a bit of a different animal. It solves a slightly different use case where you want to bundle a running website based on how the browser contructs the page.
