@@ -45,3 +45,6 @@ $ ls -l sites/<appname>
 When bundleer runs it will create a subdirectory at ./sites/appname that contains all the output.
 The first step is to run bundleer to *gather* all the style and javascript files and organize them in proper sequence.
 The second step is to then *bundle* those into proper bundle.css and bundle.js files.
+
+At this time, the integration of bundle.css and bundle.js into your desired HTML is up to you.
+Next release of bundleer will output a modified HTML from the source URL that removes the old CSS and JavaScript and inserts the new bundles.
