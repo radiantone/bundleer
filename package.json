@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "main": "bundleer.js",
-  "scripts": {
-    "start": "nodejs bundleer.js"
-  },
+  "scripts": {},
   "author": "Radiant One",
   "license": "ISC",
   "dependencies": {
@@ -16,8 +14,7 @@
     "uuid": "^3.4.0"
   },
   "bin": {
-    "bundleer": "./bundleer.js",
-    "makebundle": "./makebundle.js"
+    "bundleer": "./bundleer.js"
   },
   "devDependencies": {
     "uglify-js": "^3.8.0"
