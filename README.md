@@ -25,3 +25,10 @@ $ npm install .
 $ bundleer <appname> <url>
 $ makebundle <appname>
 ```
+
+Alernate usage
+
+```bash
+$ nodejs bundleer.js <appname> <url>
+$ nodejs makebundle.js <appname>
+```
