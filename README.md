@@ -37,7 +37,7 @@ Commands:
 ```bash
 $ bundleer gather <appname> <url>
 $ bundleer bundle <appname>
-$ ls -l sites/<appname>
+$ ls -l sites/<appname>/bundle.js sites/<appname>/bundle.css
 ```
 
 ## Explanation
