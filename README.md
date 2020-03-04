@@ -8,6 +8,8 @@ Typical bundle tools like webkit operate at build time and require you to create
 Bundleer is a bit of a different animal. It solves a slightly different use case where you want to bundle a running website based on how the browser contructs the page.
 
 This can be useful for things like legacy or 3rd party applications that you want to bundle but for whatever reason do not have access to the source tree or are not able to change the original project source.
+Additionally, it can serve a use case where you want to author your website or app without using a build time bundler.
+Then bundleer can create the bundle at runtime, perhaps from a test environment and build your production bundles for you.
 
 This approach certainly is not meant to replace build time bundlers and will probably only have niche uses.
 
